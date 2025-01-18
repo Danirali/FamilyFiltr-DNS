@@ -32,15 +32,15 @@ These can be altered via docker GUI or from cli with flag `-p {container}:{host}
   * run.sh
   * log.txt
   * blocked_pages/
-        * blocked_{time}.txt
+    * blocked_{time}.txt
   * splashscreen/
-        * main.py
-        * ssl/
-            * main.py
-            * cert.crt
-            * private.key
+    * main.py
+    * ssl/
+      * main.py
+      * cert.crt
+      * private.key
   * domains/
-        * ads.txt
-        * blocked_domains.txt
-        * game-ads.txt
+    * ads.txt
+    * blocked_domains.txt
+    * game-ads.txt
 
