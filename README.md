@@ -8,4 +8,12 @@ Docker: [danirali2007/FamilyFiltr-DNS](https://hub.docker.com/r/danirali2007/fam
 
 # Docker Variables Configuration
 #### Volume Variables
-To link the docker container storage volume to a local directory, this can be done via the docker UI by setting the conatiner path as `/app`.
+To link the docker container storage volume to a local directory, this can be done via the docker GUI by setting the container path as `/app`.
+#### Network Ports
+The default ports for the container are:
+`HTTP: 80
+HTTPS: 443
+DNS: 53`
+
+These can be altered via docker GUI or from cli with flag `-p {container}:{host}`.
+
