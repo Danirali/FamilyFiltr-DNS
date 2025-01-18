@@ -8,7 +8,7 @@ To help keep people safe online by creating a simple and easy to use UI to manag
 We try to keep all files in the python programming language to ensure that is accessable to all.
 
 ### Installation
-Docker: [danirali2007/FamilyFiltr-DNS](https://hub.docker.com/r/danirali2007/familyfiltr-dns)
+- Docker: [danirali2007/FamilyFiltr-DNS](https://hub.docker.com/r/danirali2007/familyfiltr-dns)
 
 # Docker Variables Configuration
 #### Volume Variables
