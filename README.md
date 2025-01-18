@@ -12,8 +12,7 @@ To link the docker container storage volume to a local directory, this can be do
 #### Network Ports
 The default ports for the container are:
 <br>
-<code>
-HTTP: 80
+<code>HTTP: 80
 HTTPS: 443
 DNS: 53
 </code>
