@@ -23,6 +23,21 @@ DNS: 53
 
 These can be altered via docker GUI or from cli with flag `-p {container}:{host}`.
 
+# Add Addition Domain Files
+Each domain type:
+
+* Ads
+* Game Ads
+* Blocked Domains
+
+Can hb=ave multiple text files which can be appended using the function `load_domains('/path/to/file', DOMAIN_TYPE)`. Where the `DOMAIN_TYPE` is either:
+
+* ADS_DOMAINS
+* GAME_ADS_DOMAINS
+* BLOCKED_DOMAINS
+
+<br><br>
+
 # File Structure
 
 /app
