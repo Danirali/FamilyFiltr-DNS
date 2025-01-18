@@ -25,22 +25,22 @@ These can be altered via docker GUI or from cli with flag `-p {container}:{host}
 
 # File Structure
 
-<code>/app
-  |_ main.py
-  |_ options.txt
-  |_ requirements.txt
-  |_ run.sh
-  |_ log.txt
-  |_ blocked_pages/
-        |_ blocked_{time}.txt
-  |_ splashscreen/
-        |_ main.py
-        |_ ssl/
-            |_ main.py
-            |_ cert.crt
-            |_ private.key
-  |_ domains/
-        |_ ads.txt
-        |_ blocked_domains.txt
-        |_ game-ads.txt
-</code>
+/app
+  * main.py
+  * options.txt
+  * requirements.txt
+  * run.sh
+  * log.txt
+  * blocked_pages/
+        * blocked_{time}.txt
+  * splashscreen/
+        * main.py
+        * ssl/
+            * main.py
+            * cert.crt
+            * private.key
+  * domains/
+        * ads.txt
+        * blocked_domains.txt
+        * game-ads.txt
+
