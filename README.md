@@ -30,13 +30,13 @@ Each domain type:
 * Game Ads
 * Blocked Domains
 
-Can hb=ave multiple text files which can be appended using the function `load_domains('/path/to/file', DOMAIN_TYPE)`. Where the `DOMAIN_TYPE` is either:
+can have multiple text files which can be appended using the function `load_domains('/path/to/file', DOMAIN_TYPE)`. Where the `DOMAIN_TYPE` is either:
 
 * ADS_DOMAINS
 * GAME_ADS_DOMAINS
 * BLOCKED_DOMAINS
 
-<br><br>
+<br>
 
 # File Structure
 
