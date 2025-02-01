@@ -10,16 +10,21 @@ We try to keep all files in the python programming language to ensure that is ac
 # Installation
 - Docker: [danirali2007/FamilyFiltr-DNS](https://hub.docker.com/r/danirali2007/familyfiltr-dns)
 
+  #### Once docker container is running: navigate to https://localhost:443/status to check for the status of the web server.
+
+  On healthy start: <code>{"status":"healthy"}</code>
+
 ### Docker Variables Configuration
 #### Volume Variables
 To link the docker container storage volume to a local directory, this can be done via the docker GUI by setting the container path as `/app`.
 #### Network Ports
 The default ports for the container are:
 <br>
-<code>HTTP: 80
-HTTPS: 443
+<code>HTTPS: 443
 DNS: 53
 </code>
+
+* NOTE: Port 80 is a failover port for flask web server.
 
 These can be altered via docker GUI or from cli with flag `-p {container}:{host}`.
 
