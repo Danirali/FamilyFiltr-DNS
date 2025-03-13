@@ -24,22 +24,24 @@ The default ports for the container are:
 DNS: 53
 </code>
 
-* NOTE: Port 80 is a failover port for flask web server.
+* NOTE: Port 8000 is a failover port for flask web server.
 
 These can be altered via docker GUI or from cli with flag `-p {container}:{host}`.
 
-# Add Addition Domain Files
+# Add Addition Domains
 Each domain type:
 
 * Ads
 * Game Ads
 * Blocked Domains
+* Social Media Domains
 
-can have multiple text files which can be appended using the function `load_domains('/path/to/file', DOMAIN_TYPE)`. Where the `DOMAIN_TYPE` is either:
+To modify which domains are blocked, append `options.txt` with one of the following domain types:
 
-* ADS_DOMAINS
-* GAME_ADS_DOMAINS
+* ADS
+* GAME_ADS
 * BLOCKED_DOMAINS
+* SOCIAL_MEDIA
 
 <br>
 
@@ -54,13 +56,14 @@ can have multiple text files which can be appended using the function `load_doma
   * blocked_pages/
     * blocked_{time}.txt
   * splashscreen/
-    * main.py
+    * web.py
     * ssl/
-      * main.py
+      * gen.py
       * cert.crt
       * private.key
   * domains/
     * ads.txt
     * blocked_domains.txt
     * game-ads.txt
+    * social_media_domains.txt
 
