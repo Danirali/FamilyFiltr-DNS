@@ -8,7 +8,9 @@ To help keep people safe online by creating a simple and easy to use UI to manag
 We try to keep all files in the python programming language to ensure that is accessable to all.
 
 # Installation
-- Docker: [danirali2007/FamilyFiltr-DNS](https://hub.docker.com/r/danirali2007/familyfiltr-dns)
+- Docker:
+  - Latest Tag: [danirali2007/FamilyFiltr-DNS:latest](https://hub.docker.com/r/danirali2007/familyfiltr-dns)
+  - Experimental Tag: [danirali2007/FamilyFiltr-DNS:experimental](https://hub.docker.com/layers/danirali2007/familyfiltr-dns/experimental/images/sha256-701fad0d88e8e225fee1993cc005ce8b2b31d2714ae2e7ce1b427304d4399dc0)
 
   #### Once docker container is running: navigate to https://localhost:443/status to check for the status of the web server.
 
